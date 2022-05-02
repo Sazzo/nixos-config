@@ -30,7 +30,7 @@ in
   boot.loader.grub.device = "/dev/sda"; # you may want to use /dev/vda in a VM
 
   networking.hostName = "hayasaka"; # cute anime girl name 
-  networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
+  networking.networkmanager.enable = true; # Enable Wi-Fi using NetworkManager.
   networking.nameservers = [ "1.1.1.1" "1.0.0.1" ]; # Use Cloudflare DNS.
 
   # The global useDHCP flag is deprecated, therefore explicitly set to false here.
