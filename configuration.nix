@@ -28,7 +28,9 @@ in
   # boot.loader.efi.efiSysMountPoint = "/boot/efi";
   
   boot.loader.grub.device = "/dev/sda"; # you may want to use /dev/vda in a VM
-
+  
+  swapDevices = [ { device = "/swapfile"; size = 2048; } ]; # Set up a swap file
+	
   networking.hostName = "hayasaka"; # cute anime girl name 
   # networking.wireless.enable = true;
   networking.networkmanager.enable = true;
