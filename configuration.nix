@@ -118,6 +118,9 @@ in
     nodejs-17_x
     unstable.insomnia
   ];
+  
+  # Required to connect Github with VSCode
+  services.gnome.gnome-keyring.enable = true;
 
   # Enable Steam
   programs.steam = {
