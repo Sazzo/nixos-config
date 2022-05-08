@@ -113,7 +113,7 @@ in
     fira-code
 
     # Development tools
-    vscode
+    unstable.vscode
     git
     nodejs-17_x
     unstable.insomnia
