@@ -107,7 +107,8 @@ in
     latte-dock
     unstable.lightly-qt 
     unstable.libsForQt5.qtstyleplugin-kvantum    
-   
+    libsForQt5.ark
+
     # Fonts
     inter
     fira-code
